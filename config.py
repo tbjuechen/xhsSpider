@@ -1,0 +1,1 @@
+STARTPAGE = 'https://www.xiaohongshu.com/explore'
