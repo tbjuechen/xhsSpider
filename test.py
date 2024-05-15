@@ -1,4 +1,5 @@
-from DrissionPage import ChromiumPage
+# from DrissionPage import ChromiumPage
+import sqlite3
 
 # 创建页面对象，并启动或接管浏览器
 page = ChromiumPage()
