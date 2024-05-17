@@ -59,7 +59,7 @@ class PhotoDownloader():
         '''
         获取图片列表
         '''
-        photo_container_ele = self.broswer.ele('.swiper-wrapper',timeout=2)
+        photo_container_ele = self.broswer.ele('.swiper-wrapper',timeout=1)
         if photo_container_ele:
             photo_eles = photo_container_ele.children('tag:div')[1:-1]
             srcs = [item.style('background-image')[5:-2] for item in photo_eles]
